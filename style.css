@@ -125,15 +125,9 @@ body {
 }
 
 .dital-main-one::before {
-  width: 943px;
+  max-width: 943px;
   height: 943px;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#4e9cf6),
-    to(#fff)
-  );
+  background: -webkit-gradient( linear, left top, left bottom, from(#4e9cf6), to(#fff) );
   background: linear-gradient(#4e9cf6 0%, #fff 100%);
   opacity: 0.23;
   -webkit-filter: blur(50px);
@@ -144,6 +138,7 @@ body {
   border-radius: 50%;
   top: 0;
   left: -100px;
+  width: 100%;
 }
 
 .digital-main > h2::before {
